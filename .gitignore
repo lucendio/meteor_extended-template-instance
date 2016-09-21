@@ -1,0 +1,11 @@
+*.DS_Store*
+
+.idea
+.build
+.npm
+*.vagrant*
+
+node_modules
+*npm-debug.log*
+
+app/settings.json
