@@ -103,8 +103,11 @@ __NOTE:__
     
     
 __NOTE:__
+
 1.  the `instance.attachVars` should be used only in the `onCreated` callback
+
 2.  already existing helpers or *ReactiveVars* on the current instance wont get
     overwritten, if they already exist
+    
 3.  If you want to have a more complex helper then just a getter, it is recommended 
     to do the steps hidden by this function manually rather and using this method
